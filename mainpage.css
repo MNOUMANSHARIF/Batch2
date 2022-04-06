@@ -184,7 +184,7 @@ border: none;font-size: large;}
 
 .parent:hover .dropbtn{background-color: red;}
 .catawraper{background-color: var(--cataparentbg);height: 200vh;width: 100%;
-    padding-top: 3px;}
+    padding-top: 3px; justify-content:space-around;}
 /* contact us drop doneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
 
 /* catagorey starteddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
@@ -321,16 +321,15 @@ width: 32.67%;}
 
 
     .catagorey13{background-color: var(--catabgclr);
-        margin-left: 1%;
+        margin-left: 60%;
      height: 100%;
      width: 32.67%;}
      
     
 .r7parent{background-color: var(--cataparentbg);
     height: 46vh;
-    width: 98%;
-    margin:1% 0% 1% 26%;
-    display: flex;}
+    width: 18%;
 
+}
 
 
