@@ -1,0 +1,38 @@
+.parent {}
+
+.content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.parent:hover .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.maindiv ul {
+    display: flex;
+    list-style: none;
+}
+
+.maindiv ul li {
+    margin: 10%;
+}
+
+ul li:nth-child(1) {
+    display: none;
+}
+
+@media screen AND (max-width:700px) {
+    li {
+        display: none;
+    }
+    ul li:nth-child(1) {
+        display: flex;
+    }
+}
