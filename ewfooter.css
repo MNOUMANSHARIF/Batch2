@@ -1,0 +1,53 @@
+
+/* fooooooooooooooootttttteeeeeeeerrrrrrrrrr-----------------------------------STARTED */
+
+.footer {
+    background-color: var(--clor);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--clor4);
+}
+
+.footer .main1 ul {
+    /* display: flex; */
+    list-style: none;
+}
+
+.main1 h4 {
+    margin: 0%;
+    margin-top: 1%;
+}
+
+.main1 p {
+    margin-bottom: 0%;
+    margin-top: 1%;
+    padding-top: 5px;
+    font-size: 30px;
+    color: var(--clor3);
+}
+
+.main1 b {
+    color: var(--clor3);
+}
+
+
+/* maaaaaaaaaaaaaaaaaaaaaaaaaaaaaiiiiiiiiiiiiiiiiiinnnnnnnnnnnnnnnn11111111111111111111111 */
+
+.main2 ul {
+    list-style: none;
+}
+
+.main2 li {
+    font-size: 19px;
+    margin: 1%;
+}
+
+.main2 li h3 {
+    font-weight: 500;
+}
+
+.footer ul li:hover {
+    color: var(--clor3);
+}
