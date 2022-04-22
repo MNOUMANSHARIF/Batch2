@@ -1,0 +1,17 @@
+                    <h3>
+                        <i class="fa-solid fa-circle-chevron-down"></i>Luxury Campus Life</h3>
+                    <h4>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa reiciendis, officiis quam excepturi eius, vitae aliquid praesentium, eveniet ullam accusamus animi. Impedit rem explicabo quas iste voluptas distinctio, tempore eum.
+                    </h4>
+                    <!-- 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+
+                    <h3>
+                        <i class="fa-solid fa-circle-chevron-down"></i> Perfect - Programs </h3>
+                    <h4>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa reiciendis, officiis quam excepturi eius, vitae aliquid praesentium, eveniet ullam accusamus animi. Impedit rem explicabo quas iste voluptas distinctio, tempore eum.
+                    </h4>
+                    <!-- 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 -->
+                    <h3>
+                        <i class="fa-solid fa-circle-chevron-down"></i>Hands On Research </h3>
+                    <h4>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa reiciendis, officiis quam excepturi eius, vitae aliquid praesentium, eveniet ullam accusamus animi. Impedit rem explicabo quas iste voluptas distinctio, t

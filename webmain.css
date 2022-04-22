@@ -463,7 +463,7 @@
 
 .down3 {
     /* position: relative; */
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; */
     /* background-color: aqua; */
     height: 100vh;
@@ -473,49 +473,76 @@
 .down3 .image {
     height: 100%;
     background-color: blue;
-    width: 50%;
+    width: 100%;
     /* margin: 0%; */
     /* margin-bottom: 0%; */
     margin-right: 0%;
 }
 
-.down3 .content {
-    /* position: absolute; */
-    /* height: 100vh; */
-    width: 49%;
-    background-color: var(--clor4);
-    margin-left: 50%;
-    margin: 0% 0% 0% 50%;
+
+/* .down3 .content { */
+
+position: absolute;
+
+/* height: 100vh; */
+
+width: 100%;
+height: 100VH;
+background-color: var(--clor4);
+
+/* margin-left: 50%; */
+
+
+/* margin: 0% 0% 0% 50%; */
+
+
+/* top: 0; */
+
+margin-top: -48.6%;
+
 }
 
-.down3 .content b {
-    font-size: 50px;
-    font-weight: 300;
+/* .down3 .content b { */
+
+/* font-size: 50px; */
+
+/* font-weight: 300; */
+
+/* } */
+
+/* .down3 .content strong { */
+
+/* font-size: 50px; */
+
+/* font-weight: 600; */
+
+/* } */
+
+/* .down3 .content i { */
+
+/* font-size: larger; */
+
+/* } */
+
+/* .down3 .content h3 { */
+
+/* font-size: 30px; */
+
+/* width: fit-content; */
+
 }
 
-.down3 .content strong {
-    font-size: 50px;
-    font-weight: 600;
-}
+/* .down3 .content h3 i { */
 
-.down3 .content i {
-    font-size: larger;
-}
+/* font-size: 30px; */
 
-.down3 .content h3 {
-    font-size: 30px;
-    width: fit-content;
-}
+/* margin: 5%; */
 
-.down3 .content h3 i {
-    font-size: 30px;
-    /* margin: 5%; */
-    padding-right: 20px;
-}
+/* padding-right: 20px; */
 
+}
 
 /* fooooooooooooooootttttteeeeeeeerrrrrrrrrr-----------------------------------STARTED */
-
 .footer {
     background-color: var(--clor);
     height: 50vh;
@@ -524,17 +551,14 @@
     justify-content: space-around;
     color: var(--clor4);
 }
-
 .footer .main1 ul {
     /* display: flex; */
     list-style: none;
 }
-
 .main1 h4 {
     margin: 0%;
     margin-top: 1%;
 }
-
 .main1 p {
     margin-bottom: 0%;
     margin-top: 1%;
@@ -542,27 +566,21 @@
     font-size: 30px;
     color: var(--clor3);
 }
-
 .main1 b {
     color: var(--clor3);
 }
 
-
 /* maaaaaaaaaaaaaaaaaaaaaaaaaaaaaiiiiiiiiiiiiiiiiiinnnnnnnnnnnnnnnn11111111111111111111111 */
-
 .main2 ul {
     list-style: none;
 }
-
 .main2 li {
     font-size: 19px;
     margin: 1%;
 }
-
 .main2 li h3 {
     font-weight: 500;
 }
-
 .footer ul li:hover {
     color: var(--clor3);
 }
