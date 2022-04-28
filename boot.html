@@ -430,7 +430,13 @@ width: 50%;" class="alerts">
 
 
 
+<button type="button" class="btn-close" aria-label="Close"></button>
 
+
+
+<button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+
+<button type="button" class="btn-close btn-close-white" disabled aria-label="Close"></button>
 
 
 
@@ -462,16 +468,26 @@ width: 50%;" class="alerts">
             
             <h1  class="text-center">Sign in</h1>
             <label for="name" class="form-label"><b>Name</b></label>
-            <input type="text" name="name" placeholder="Enter Your Name" class="form-control">
+            <input type="text" name="name" placeholder="Enter Your Name" class="form-control text-warning
+            ">
             <br>
             <label for="name" class="form-label"><b>E-mail</b></label>
-            <input type="text" name="mail" placeholder="Enter Your E-mail" class="form-control">
+            <input type="text" name="mail" placeholder="Enter Your E-mail" class="form-control text-warning">
   <br>
             <label for="name" class="form-label"><b>Password</b></label>
-            <input type="password" name="password" placeholder="Enter Your Password" class="form-control">
+            <input type="password" name="password" placeholder="Enter Your Password" class="form-control text-warning">
             <br>
             <br>
-            <input type="checkbox" name="remember"> <b>Remember Me!</b>
+            <!-- <input type="checkbox" name="remember" class="text-warning"> <b>Remember Me!</b> -->
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check btn-success" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-danger" for="btnradio1">Don't Remember</label>
+              
+                <input type="radio" class="btn-check bg-success" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-success" for="btnradio2">Remember Me</label>
+              
+                
+              </div>
             <br>
             <br>
             
